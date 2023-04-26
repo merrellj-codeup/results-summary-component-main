@@ -1,0 +1,45 @@
+:root {
+    /* Color styles */
+    --yellow: rgba(255, 178, 30, 1);
+    --blue: rgba(17, 37, 214, 1);
+    --blue-95-white: rgba(17, 37, 214, 1);
+    --green: rgba(0, 187, 143, 1);
+    --green-95-white: rgba(0, 187, 143, 1);
+    --red: rgba(255, 85, 85, 1);
+    --red-95-white: rgba(255, 85, 85, 1);
+    --dark-navy: rgba(48, 59, 89, 1);
+    --light-blue: rgba(202, 201, 255, 1);
+    --very-light-blue: rgba(236, 242, 255, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    /* Gradients */
+    --gradient-1: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    --gradient-2: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    --yellow-gradient: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+    --blue-gradient: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+    --green-gradient: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+    --red-gradient: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+
+
+    /* Text-size styles */
+    --heading-xl: 72px;
+    --heading-l: 32px;
+    --heading-m: 24px;
+    --body-bold: 18px;
+    --body: 18px;
+
+    /* Effect styles */
+    --boxshadow:  0px 30px 60px rgba(61, 108, 236, 0.15);
+    --border-radius-l: 32px;
+    --border-radius-s: 12px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.page-wrapper {
+    background: var(--very-light-blue);
+}
